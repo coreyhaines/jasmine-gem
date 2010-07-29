@@ -1,6 +1,5 @@
 GEM
   remote: http://rubygems.org/
-  remote: http://rubygems.org/
   specs:
     abstract (1.0.0)
     actionmailer (3.0.0.rc)
@@ -35,8 +34,7 @@ GEM
     diff-lcs (1.1.2)
     erubis (2.6.6)
       abstract (>= 1.0.0)
-    gemcutter (0.5.0)
-      json_pure
+    gemcutter (0.6.1)
     git (1.2.5)
     i18n (0.4.1)
     jeweler (1.4.0)
@@ -91,13 +89,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  gemcutter (= 0.5.0)
-  jeweler (= 1.4.0)
+  gemcutter (>= 0.5.0)
+  jeweler (>= 1.4.0)
   json_pure (~> 1.4.3)
   rack (~> 1.2.1)
   rack-test
   rails (= 3.0.0.rc)
-  rake (= 0.8.7)
-  rspec (= 2.0.0.beta.19)
+  rake (>= 0.8.7)
+  rspec (>= 2.0.0.beta.19)
   selenium-client (= 1.2.18)
   selenium-rc (= 2.2.1)
